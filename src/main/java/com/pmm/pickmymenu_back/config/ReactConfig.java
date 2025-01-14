@@ -17,6 +17,7 @@ public class ReactConfig implements WebMvcConfigurer {
                                 "https://pmm.hhjnn92.synology.me",
                                 "https://pmm.hhjnn92.synology.me:443",
                                 "http://localhost:8090",
+                                "https://localhost:8091",
                                 "http://localhost:3000") // React 앱의 URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowCredentials(true); // 인증 정보 사용 가능
