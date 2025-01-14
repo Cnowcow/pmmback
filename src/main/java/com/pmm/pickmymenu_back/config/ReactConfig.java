@@ -12,6 +12,7 @@ public class ReactConfig implements WebMvcConfigurer {
         registry.addMapping("/**")
                 .allowedOrigins("http://hhjnn92.synology.me:3020",
                                 "https://hhjnn92.synology.me:3021",
+                                "http://localhost:3000",
                                 "https://localhost:3020",
                                 "http://localhost:3021") // React 앱의 URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
