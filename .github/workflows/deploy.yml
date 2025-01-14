@@ -85,7 +85,7 @@ jobs:
       # 새로운 컨테이너 실행
       - name: Run new container on Synology NAS
         run: |
-          sshpass -p "${{ secrets.SYNOLGY_PASSWORD }}" ssh -o StrictHostKeyChecking=no hhjnn92@hhjnn92.synology.me "echo '${{ secrets.SYNOLGY_PASSWORD }}' | sudo -S /usr/local/bin/docker run --name pmmbacktest -d -p 3012:3012 ${{ secrets.DOCKER_USERNAME }}/pmmbacktest:latest"
+          sshpass -p "${{ secrets.SYNOLGY_PASSWORD }}" ssh -o StrictHostKeyChecking=no hhjnn92@hhjnn92.synology.me "echo '${{ secrets.SYNOLGY_PASSWORD }}' | sudo -S /usr/local/bin/docker run --name pmmbacktest -d -p 3010:3010 ${{ secrets.DOCKER_USERNAME }}/pmmbacktest:latest"
 
 
       # # docker-compose down
