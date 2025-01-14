@@ -28,6 +28,6 @@ public class ChoiceController {
     @GetMapping("/hi")
     public String hi(){
 
-        return "hi222222";
+        return "222222222";
     }
 }
